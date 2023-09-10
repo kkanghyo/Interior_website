@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="my-web.css" />
+        <link rel="stylesheet" href="my-web.html" />
+        <script
+            src="https://kit.fontawesome.com/50d8e6d90a.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>BOMI DESIGN</title>
+    </head>
+    <body>
+        <!-- 상단 로고 -->
+        <div class="logo-area back-color pt-2 pb-2">
+            <a href="./my-web.html" class="logo-text text-center">
+                <h5 class="mb-0">BOMI DESIGN</h5>
+            </a>
+        </div>
+
+        <!-- NAV 바 새로 적용 (아이콘이 우측으로 가지 않아서 다른 bootstrap 가져옴) -->
+        <nav class="navbar navbar-expand-lg navbar-light back-color pt-1 pb-1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/my-web.html">BOMI</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="./ABOUT.html"
+                                >ABOUT</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./PROJECTS.html"
+                                >PROJECT</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./PROCESS.html"
+                                >PROCESS</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./CONTACT.html"
+                                >CONTACT</a
+                            >
+                        </li>
+                    </ul>
+                    <!-- 인스타, 구글맵 아이콘 -->
+                    <div class="d-flex">
+                        <ul class="navbar-nav nav-icons">
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/"
+                                    target="_blank"
+                                >
+                                    <i class="fa-brands fa-instagram icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://goo.gl/maps/efwMe1ktaHfEhPJM6"
+                                    target="_blank"
+                                >
+                                    <i
+                                        class="fa-solid fa-location-dot icon map-icon"
+                                    ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="contact-main back-color">
+            <div class="container">
+                <!-- 지도 -->
+                <div class="con-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.4379695385287!2d127.02532892633387!3d37.49758722807803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1598c361b2b%3A0xdbf9af292beff3c!2z6rCV64Ko!5e0!3m2!1sko!2skr!4v1694280778403!5m2!1sko!2skr"
+                        width="1000"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+                <div class="con">
+                    <strong>Contact</strong>
+                    <ul class="con-text">
+                        <li>
+                            <span>Address</span>
+                            서울시 강남구 역삼동
+                        </li>
+                        <li>
+                            <span>Tel</span>
+                            02 . 111 . 1111
+                        </li>
+                        <li>
+                            <span>E-Mail</span>
+                            khjkgy1205@naver.com
+                        </li>
+                        <li>
+                            <button
+                                type="button"
+                                class="btn btn-secondary mt-3"
+                            >
+                                견적상담문의
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer 시작 -->
+        <footer>
+            <div class="container">
+                <!-- 회사 정보 -->
+                <div class="pt-3 pb-1 footer-firstline">
+                    <span>주식회사 보미디자인</span>
+                    <span>|</span>
+                    <span>사업자등록번호 111-11-11111</span>
+                    <span>|</span>
+                    <span>대표자 강효정</span>
+                </div>
+                <div class="pb-3 footer-secondline">
+                    <span>ⓒ 2014 BOMIDESIGN Corp. All Rights Reserved.</span>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
